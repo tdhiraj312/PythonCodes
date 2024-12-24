@@ -1,0 +1,31 @@
+lis = [1,"hi","dhiraj"]
+tup = (2,"hi")
+d = {1:'a',2:'b',3:'c'}
+
+print(type(lis))
+print(type(tup))
+print(type(d))
+
+print(lis[0:2])
+print(tup[1])
+print(d[2])
+
+print(lis)
+print(tup)
+print(d)
+print(d.keys())
+print(d.values())
+
+Output
+-----------------------------
+<class 'list'>
+<class 'tuple'>
+<class 'dict'>
+[1, 'hi']
+hi
+b
+[1, 'hi', 'dhiraj']
+(2, 'hi')
+{1: 'a', 2: 'b', 3: 'c'}
+dict_keys([1, 2, 3])
+dict_values(['a', 'b', 'c'])
