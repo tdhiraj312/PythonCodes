@@ -1,0 +1,46 @@
+#Displaying a string
+print("HELLO WORLD!")
+
+#Displaying multiple values
+name= "DHIRAJ" 
+age= 26
+print("Name:",name,"Age:",age)
+
+#Printing values and literals
+x=2
+y=98
+print("x=",x,"y=",y,"sum=",x+y)
+
+#Printing with formatting
+
+percentage=86.46
+print("Score: {:.2f}%".format(percentage))
+
+#LIST
+list1=["Dhiraj",785,'@',78.98]
+
+print(list1)
+print(len(list1))
+print(list1[1])
+print(list1[3])
+print(type(list1))
+
+#Tuple
+
+tup1=(1,2,3,4)
+
+print(type(tup1))
+print("tuple=",tup1)
+print(tup1[2])
+print(tup1[0])
+print(tup1[0]+tup1[2]+tup1[3])
+
+#Dictionary
+
+dict1={1:"Dhiraj",2:"Thakur",3:"Python",4:"Java"}
+print(type(dict1))
+print(len(dict1))
+print(dict1)
+print(dict1.keys())
+print(dict1.values())
+print(dict1[3])
