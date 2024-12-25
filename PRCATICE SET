@@ -1,0 +1,23 @@
+#Displaying a string
+print("HELLO WORLD!")
+
+#Displaying multiple values
+name= "DHIRAJ" 
+age= 26
+print("Name:",name,"Age:",age)
+#Printing values and literals
+x=2
+y=98
+print("x=",x,"y=","sum=",x+y)
+
+#Printing with formatting
+
+percentage=86.46
+print("Score: {:.2f}%".format(percentage))
+----------------------------------------------------------------------------------
+output
+------------
+HELLO WORLD!
+Name: DHIRAJ Age: 26
+x= 2 y= sum= 100    
+Score: 86.46%       
