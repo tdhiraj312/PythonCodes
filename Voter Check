@@ -1,0 +1,28 @@
+#Program to check voting eligibility
+
+can=str(input("Enter can name: "))
+age=int(input("Enter the age of can: "))
+
+print("age:",age) 
+print("can:",can)
+
+#Conditonal checking
+if age>=18:
+    print("Eligible to vote")
+else:
+    print("Not Eligible to vote")
+----------------------------------------------------------------
+#OUTPUT 1
+Enter can name: dsj
+Enter the age of can: 32
+age: 32
+can: dsj        
+Eligible to vote
+----------------------------------------------------------------
+#OUTPUT 2
+Enter can name: DHiraj
+Enter the age of can: 14
+age: 14
+can: DHiraj
+Not Eligible to vote
+
