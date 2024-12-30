@@ -1,0 +1,17 @@
+#Write python program to determine grade based on input marks
+
+GRADE A  85<=MARKS<=100
+GRADE B  65<=MARKS<=85
+GRADE C 35<=MARKS<=65
+FAIL    35<=MARKS
+
+input
+
+Enter your marks: 75
+
+output:
+
+Grade A -> Congrats ! you are pass with grade A
+Grade B -> Congrats ! you are pass with grade B
+Grade C -> Congrats ! you are pass with grade C
+Fail-> Sorry ! you just failed.
