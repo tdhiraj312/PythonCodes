@@ -1,9 +1,30 @@
-#write program to call user name 5 times using while loop
+#write program to print first 10 numbers using while loop
 
-person = str(input("Enter user name: "))
-num = 1
-while(num<=5):
-    print(person)
+#natural numbers : 1, 2, 3, 4, 5, 6, 7, 8, 9 , 10
+#even numbers : 2, 4, 6, 8 , 10
+#odd numbers : 1, 3, 5, 7, 9
+num= 1
+print("First 10 natural numbers are: ")
+while(num<=10): #1#2#3#4#5#6#7#8#9#10#11
+    print(num,end=' ') #1#2#3#4#5#6#7#8#9#10
     num = num+1
 
+num = 2
+print("\nFirst 10 even numbers are: ")
+while(num<=10): #2#4#6#8#10#12
+    print(num,end=' ') #2#4#6#8#10
+    num = num+2
+
+num = 1
+print("\nFirst 10 odd numbers are: ")
+while(num<=10): #1#3#5#7#9#11
+    print(num,end=' ') #1#3#5#7#9
+    num = num+2
+
 Output:
+First 10 natural numbers are: 
+1 2 3 4 5 6 7 8 9 10       
+First 10 even numbers are: 
+2 4 6 8 10
+First 10 odd numbers are:  
+1 3 5 7 9
