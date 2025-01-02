@@ -1,0 +1,9 @@
+#write program to call user name 5 times using while loop
+
+person = str(input("Enter user name: "))
+num = 1
+while(num<=5):
+    print(person)
+    num = num+1
+
+Output:
