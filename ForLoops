@@ -1,0 +1,13 @@
+#write program to print sum of squares in a given list
+
+list1 = (1,2,3,4,5)
+
+sum_ = 0
+
+for value in list1: #1#2#3#4#5
+    sum_= sum_ + value**2 #1#4#9#16#25
+
+print("Sum of squares is: ",sum_) #55
+
+OUTPUT:
+Sum of squares is:  55
