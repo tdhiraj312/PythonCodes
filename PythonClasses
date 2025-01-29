@@ -7,3 +7,27 @@ class Student:
 
 s1 = Student("Dhiraj Thakur","Gurugram")
 s1.display()
+
+------------------------------------------------------------------
+
+#Program to check if number is even or odd
+
+#input:
+#Enter the number: 3
+#output:
+#Number 3 is Odd
+
+class Test:
+    def __init__(self,number):
+        self.number = number
+    
+    def display(self):
+        if(self.number%2 == 0):
+            print(self.number, "is Even")
+        else:
+            print(self.number,"is Odd")-1
+
+        
+num = int(input("Enter the number: "))
+n1 = Test(num)  
+n1.display()  
