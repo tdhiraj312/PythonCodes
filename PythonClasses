@@ -1,0 +1,9 @@
+class Student:
+    def __init__(self,name,address):
+        self.name = name
+        self.address = address  
+    def display(self):
+        print(self.name,self.address)
+
+s1 = Student("Dhiraj Thakur","Gurugram")
+s1.display()
